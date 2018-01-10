@@ -1,7 +1,7 @@
 {
   "applicationId": null,
   "awsProfileName": "",
-  "skillName": "My Alexa Skill",
+  "skillName": "Lucky Number",
   "lambdaName": "luckyNumber",
   "dynamoTableName": "LuckyNumber",
   "dynamoRegion": "us-east-1",
@@ -100,7 +100,7 @@
       "readPreviousOptions": false,
       "card": {
         "title": "Good bye",
-        "text": "Thank you for using My Alexa Skill.",
+        "text": "Thank you for using Lucky Number.",
         "prompt": "",
         "image": {
           "largeImageUrl": null,
@@ -108,10 +108,10 @@
         }
       },
       "voice": {
-        "intro": "Thank you for using My Alexa Skill.",
+        "intro": "Thank you for using Lucky Number.",
         "prompt": "Goodbye."
       }
     }
   },
-  "undefined": "My Alexa Skill"
+  "undefined": "Lucky Number"
 }
