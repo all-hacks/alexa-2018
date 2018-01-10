@@ -28,19 +28,19 @@ module.exports = {
 	"BeginIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "begin" )
 	},
-	"OpenDoorOneIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 1" )
+	"OpenBoxOneIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open box 1" )
 	},
-	"OpenDoorTwoIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 2" )
+	"OpenBoxTwoIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open box 2" )
 	},
-	"OpenDoorThreeIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 3" )
+	"OpenBoxThreeIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open box 3" )
 	},
-	"OpenDoorFourIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 4" )
+	"OpenBoxFourIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open box 4" )
 	},
-	"OpenDoorFiveIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 5" )
+	"OpenBoxFiveIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open box 5" )
 	},
 }

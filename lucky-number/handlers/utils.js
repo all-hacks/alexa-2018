@@ -5,6 +5,20 @@ var scenes = require('../models/scenes.json')
 
 var utils = {
 
+  swapScenes: function () {
+    var arr = [2, 3, 4];
+    arr = shuffle(arr);
+
+    console.log("arr -> " + arr);
+
+    scenes[2].id = arr[0];
+    scenes[3].id = arr[1];
+    scenes[4].id = arr[2];
+
+    console.log("scenes -> " + scenes);    
+
+  },
+
   getSkillName: function () {
     return config.skillName
   },
@@ -53,4 +67,23 @@ function cloneScene ( scene ) {
   scene.voice = Object.assign( {}, scene.voice )
   if ( 'options' in scene ) scene.options = scene.options.slice()
   return scene
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
 }

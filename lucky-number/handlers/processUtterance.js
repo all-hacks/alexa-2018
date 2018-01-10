@@ -21,6 +21,8 @@ function processUtterance ( intent, session, request, response, utterance ) {
   var currentScene = utils.findResponseBySceneId( session.attributes.currentSceneId )
 
   if (!currentScene || !currentScene.options) {
+    utils.swapScenes();
+    
     intentHandlers["LaunchIntent"](intent, session, request, response)
     return
   }

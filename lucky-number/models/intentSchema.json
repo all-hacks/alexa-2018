@@ -31,19 +31,19 @@
       "intent": "BeginIntent"
     },
     {
-      "intent": "OpenDoorOneIntent"
+      "intent": "OpenBoxOneIntent"
     },
     {
-      "intent": "OpenDoorTwoIntent"
+      "intent": "OpenBoxTwoIntent"
     },
     {
-      "intent": "OpenDoorThreeIntent"
+      "intent": "OpenBoxThreeIntent"
     },
     {
-      "intent": "OpenDoorFourIntent"
+      "intent": "OpenBoxFourIntent"
     },
     {
-      "intent": "OpenDoorFiveIntent"
+      "intent": "OpenBoxFiveIntent"
     }
   ]
 }

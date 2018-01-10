@@ -16,8 +16,8 @@ AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
 AMAZON.CancelIntent exit skill
 BeginIntent begin
-OpenDoorOneIntent open door one
-OpenDoorTwoIntent open door two
-OpenDoorThreeIntent open door three
-OpenDoorFourIntent open door four
-OpenDoorFiveIntent open door five
+OpenBoxOneIntent open box one
+OpenBoxTwoIntent open box two
+OpenBoxThreeIntent open box three
+OpenBoxFourIntent open box four
+OpenBoxFiveIntent open box five
