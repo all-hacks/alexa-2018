@@ -118,7 +118,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "You win",
-      "text": "Congratulations, you've beat my skill!",
+      "text": "Congratulations, you've beat my skill!  Your inspirational quote is \"Life itself is the most wonderful fairy tale.\"",
       "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
       "image": {
         "largeImageUrl": null,
@@ -126,7 +126,7 @@
       }
     },
     "voice": {
-      "intro": "Congratulations, you've beat my skill!",
+      "intro": "Congratulations, you've beat my skill!  Your inspirational quote is \"Life itself is the most wonderful fairy tale.\"",
       "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
     },
     "options": []
