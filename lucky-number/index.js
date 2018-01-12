@@ -21,3 +21,6 @@ skill.intentHandlers = Object.assign(
   require('./handlers/intentHandlers_generated'),
   require('./handlers/intentHandlers_default')
 )
+
+console.log("intent handlers -> " + JSON.stringify(skill.intentHandlers));
+

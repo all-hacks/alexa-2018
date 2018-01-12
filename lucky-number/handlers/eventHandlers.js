@@ -33,6 +33,8 @@ var eventHandlers = {
 
   onIntent: function ( request, session, response ) {
 
+    console.log("eventHandlers intentHandlers -> " + skill.intentHandlers.length);
+
     var intentName = request.intent.name
     var intentHandler = skill.intentHandlers[ intentName ]
 
@@ -49,6 +51,9 @@ var eventHandlers = {
 
     if ( intentHandler ) {
       console.log('dispatch intent = ' + intentName )
+      if(intentName == "ResetStateIntent") {
+        utils.swapScenes();
+      }
       intentHandler.call( skill, request.intent, session, request, response )
     }
     else {

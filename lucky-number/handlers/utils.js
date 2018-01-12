@@ -15,7 +15,7 @@ var utils = {
     scenes[3].id = arr[1];
     scenes[4].id = arr[2];
 
-    console.log("scenes -> " + scenes);    
+    console.log("utils scenes -> " + JSON.stringify(scenes));    
 
   },
 
