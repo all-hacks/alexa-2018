@@ -14,10 +14,9 @@ function processUtterance ( intent, session, request, response, utterance ) {
 
   console.log("utterance -> " + utterance);
 
-  /* this block never use, thus redundant
   var intentHandlers = skill.intentHandlers
 
-  console.log("intent handlers -> " + JSON.stringify(intentHandlers));
+  console.log("processUtterance::intentHandlers -> " + JSON.stringify(intentHandlers));
 
   Object.keys( config.commands ).forEach( function ( intentName ) {
     if ( utils.getCommandsForIntent( intentName) .indexOf( utterance ) > -1 ) {
@@ -27,7 +26,6 @@ function processUtterance ( intent, session, request, response, utterance ) {
       return // exit
     }
   })
-  */
 
 
   var currentScene = utils.findResponseBySceneId( session.attributes.currentSceneId )
